@@ -36,6 +36,12 @@ public class A03 {
      */
     public static int countOf(int[] array, int target) {
         int count = 0;
+        for(int value : array) {
+            if (value = targer) {
+                count++;
+            }
+        }
+        
         return count;
     } // method countOf
 
@@ -46,6 +52,12 @@ public class A03 {
      */
     public static int findMax(int[] array) {
         int max = array[0];
+        for (int x = 0; x < array.length; x++) {
+            if (array[x] > max) { 
+                max = array[x];
+            }
+        }
+        
         return max;
     } // method findMax
 
@@ -56,6 +68,12 @@ public class A03 {
      */
     public static int findMin(int[] array) {
         int min = array[0];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < min) {
+                min = array[i];
+            }
+        }
+        
         return min;
     } // method findMin
 
@@ -67,6 +85,13 @@ public class A03 {
      */
     public static boolean isPresent(int target, int[] array) {
         boolean found = false;
+        for (int b : array) {
+            if (array[b] == target) {
+                found = true;
+                break; 
+        }
+        }
+        
         return found;
     } // method contains
 
