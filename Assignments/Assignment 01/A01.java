@@ -18,6 +18,11 @@
  */
 public class A01 {
     public static void main(String[] args) {
-        // YOUR CODE HERE
+        // 
+        String firstname = "Michael";
+        String favoritemovie = "Shawshank Redemption";
+        String hometown = "West Dundee";
+        System.out.println ("Hello, my name is " + firstname + ", I am from " + hometown + ", and my favorite movie is " + favoritemovie +);
     } // method main
+
 } // class A01
